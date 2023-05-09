@@ -1,0 +1,81 @@
+@media screen and (max-width: 468px) {
+    .title {
+        font-size: 24px;
+        border-width: 2px;
+        margin: auto;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .h2-text-index {
+        font-size: 18px;
+        text-align: center;
+    }
+    .h3-text-index {
+        text-align: center;
+    }
+    .section-index {
+        text-align: center;
+    }
+    .d-md-block {
+        display: block!important;
+    }
+    .a-carousel {
+        font-size: 16px;
+    }
+    .p-carousel {
+        font-size: 14px;
+    }
+    .section-contact {
+        text-align: center;
+    }
+    .footer {
+        text-align: center;
+        font-size: 12px;
+        border: 2px dashed green;
+    }
+}
+
+@media screen and (min-width: 469px) and (max-width: 968px) {
+    .title {
+        font-size: 32px;
+        border-width: 3px;
+        margin: auto;
+        margin-top: 16px;
+        margin-bottom: 16px;
+    }
+    .h2-text-index {
+        font-size: 22px;
+        text-align: center;
+    }
+    .h3-text-index {
+        text-align: center;
+    }
+    .section-index {
+        text-align: center;
+    }
+    .d-md-block {
+        display: block!important;
+    }
+    .a-carousel {
+        font-size: 20px;
+    }
+    .p-carousel {
+        font-size: 18px;
+    }
+    .section-contact {
+        text-align: center;
+    }
+    .footer {
+        text-align: center;
+        font-size: 16px;
+        border: 4px dashed green;
+    }
+}
+
+.footer {
+    font-size: 30px;
+    color: nth($colores, 3);
+    border: 5px dashed nth($colores, 3);
+    text-align: center;
+    margin: 20px;
+}
